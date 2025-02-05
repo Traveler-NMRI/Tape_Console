@@ -1,0 +1,77 @@
+﻿生成启动时间为 2023/1/25 19:01:38。
+     1>项目“C:\Tape2\Tape\Tape\Tape.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“x64\Debug\Tape.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         J:\Visual Studio 2010\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt ..\..\..\Users\Administrator\Desktop\main.cpp
+         main.cpp
+     1>..\..\..\Users\Administrator\Desktop\main.cpp(88): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 J:\Visual Studio 2010\VC\include\stdio.h(277) : 参见“gets”的声明
+     1>..\..\..\Users\Administrator\Desktop\main.cpp(90): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 J:\Visual Studio 2010\VC\include\conio.h(128) : 参见“getch”的声明
+     1>..\..\..\Users\Administrator\Desktop\main.cpp(105): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 J:\Visual Studio 2010\VC\include\stdio.h(277) : 参见“gets”的声明
+     1>..\..\..\Users\Administrator\Desktop\main.cpp(115): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 J:\Visual Studio 2010\VC\include\stdio.h(304) : 参见“scanf”的声明
+     1>..\..\..\Users\Administrator\Desktop\main.cpp(117): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 J:\Visual Studio 2010\VC\include\stdio.h(304) : 参见“scanf”的声明
+     1>..\..\..\Users\Administrator\Desktop\main.cpp(149): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 J:\Visual Studio 2010\VC\include\stdio.h(304) : 参见“scanf”的声明
+     1>..\..\..\Users\Administrator\Desktop\main.cpp(158): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 J:\Visual Studio 2010\VC\include\stdio.h(277) : 参见“gets”的声明
+     1>..\..\..\Users\Administrator\Desktop\main.cpp(170): warning C4018: “<=”: 有符号/无符号不匹配
+     1>..\..\..\Users\Administrator\Desktop\main.cpp(194): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 J:\Visual Studio 2010\VC\include\stdio.h(277) : 参见“gets”的声明
+     1>..\..\..\Users\Administrator\Desktop\main.cpp(196): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 J:\Visual Studio 2010\VC\include\stdio.h(304) : 参见“scanf”的声明
+     1>..\..\..\Users\Administrator\Desktop\main.cpp(198): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 J:\Visual Studio 2010\VC\include\stdio.h(304) : 参见“scanf”的声明
+     1>..\..\..\Users\Administrator\Desktop\main.cpp(211): warning C4018: “<=”: 有符号/无符号不匹配
+     1>..\..\..\Users\Administrator\Desktop\main.cpp(244): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 J:\Visual Studio 2010\VC\include\stdio.h(304) : 参见“scanf”的声明
+     1>..\..\..\Users\Administrator\Desktop\main.cpp(248): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 J:\Visual Studio 2010\VC\include\stdio.h(304) : 参见“scanf”的声明
+     1>..\..\..\Users\Administrator\Desktop\main.cpp(252): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 J:\Visual Studio 2010\VC\include\stdio.h(304) : 参见“scanf”的声明
+     1>..\..\..\Users\Administrator\Desktop\main.cpp(256): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 J:\Visual Studio 2010\VC\include\stdio.h(304) : 参见“scanf”的声明
+     1>..\..\..\Users\Administrator\Desktop\main.cpp(262): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 J:\Visual Studio 2010\VC\include\stdio.h(304) : 参见“scanf”的声明
+     1>..\..\..\Users\Administrator\Desktop\main.cpp(264): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 J:\Visual Studio 2010\VC\include\stdio.h(304) : 参见“scanf”的声明
+     1>..\..\..\Users\Administrator\Desktop\main.cpp(268): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 J:\Visual Studio 2010\VC\include\stdio.h(304) : 参见“scanf”的声明
+     1>..\..\..\Users\Administrator\Desktop\main.cpp(270): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 J:\Visual Studio 2010\VC\include\stdio.h(304) : 参见“scanf”的声明
+     1>..\..\..\Users\Administrator\Desktop\main.cpp(274): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 J:\Visual Studio 2010\VC\include\stdio.h(304) : 参见“scanf”的声明
+     1>..\..\..\Users\Administrator\Desktop\main.cpp(276): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 J:\Visual Studio 2010\VC\include\stdio.h(304) : 参见“scanf”的声明
+     1>..\..\..\Users\Administrator\Desktop\main.cpp(280): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 J:\Visual Studio 2010\VC\include\conio.h(128) : 参见“getch”的声明
+     1>..\..\..\Users\Administrator\Desktop\main.cpp(81): warning C4101: “i”: 未引用的局部变量
+     1>..\..\..\Users\Administrator\Desktop\main.cpp(82): warning C4101: “temp”: 未引用的局部变量
+     1>..\..\..\Users\Administrator\Desktop\main.cpp(80): warning C4101: “end”: 未引用的局部变量
+     1>..\..\..\Users\Administrator\Desktop\main.cpp(80): warning C4101: “start”: 未引用的局部变量
+     1>..\..\..\Users\Administrator\Desktop\main.cpp(83): warning C4101: “Blocks”: 未引用的局部变量
+     1>..\..\..\Users\Administrator\Desktop\main.cpp(79): warning C4101: “Temp_DS”: 未引用的局部变量
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         J:\Visual Studio 2010\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Tape2\Tape\x64\Debug\Tape.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\Tape.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Tape2\Tape\x64\Debug\Tape.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Tape2\Tape\x64\Debug\Tape.lib" /MACHINE:X64 x64\Debug\Tape.exe.embed.manifest.res
+         x64\Debug\main.obj
+         Tape.vcxproj -> C:\Tape2\Tape\x64\Debug\Tape.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"x64\Debug\Tape.exe.embed.manifest" /manifest x64\Debug\Tape.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         Tape.vcxproj -> C:\Tape2\Tape\x64\Debug\Tape.exe
+       FinalizeBuildStatus:
+         正在删除文件“x64\Debug\Tape.unsuccessfulbuild”。
+         正在对“x64\Debug\Tape.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Tape2\Tape\Tape\Tape.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.68

@@ -1,0 +1,37 @@
+目前支持的功能:
+status -获取磁带机的状态
+getposition -获取磁头位置
+setposition -设置磁头位置
+gettapeinfo -获取磁带信息
+getdriveinfo -获取磁带只因信息
+settapeblocksize -设置磁带块大小
+writefilemark -写文件标示
+writelongfilemark -写长文件标示
+writeshortmark -写短文件表示
+writesetmark -写设置表示
+load -加载磁带
+unload -卸载磁带
+lock -锁住磁带
+unlock -解锁磁带
+tension -增大表面张力(?)大部分磁带机不支持
+rewind -将磁带倒回开头
+gotofilemarks -去往文件标示
+gotosetmarks -去往设置标示
+erasetape -擦除磁带
+createpartition -创建分区
+writetape -将文件写入磁带
+readtape -将磁带转存为文件
+sendSCSIcommand -发送SCSI指令
+loadunthread -加载但不卷磁带
+如果想要往一个存有数据的磁带里存数据，但不想影响以前的数据，请执行以下操作:
+1.执行gettapeinfo操作，直到不报错234(有更多数据可用)
+2.记住每块的字节数
+3.执行getdriveinfo操作，直到不报错234(有更多数据可用)
+4.如果设备的默认块大小与记住的每块的字节数不符，请执行settapeblocksize指令，块大小填入设备的默认块大小
+5.执行setposition操作,低块地址与高块地址均填4294967295将磁带倒带到磁带结尾
+6.执行gettapeinfo操作，直到不报错234(有更多数据可用)
+7.如果担心数据会被影响，请制作一个全0文件，大小需为设备的默认块大小的倍数字节(通常写入2048KiB全0文件)，之后保存，使用writetape操作将全0文件写入
+8.执行gettapeinfo操作，直到不报错234(有更多数据可用)
+9.writetape写入文件
+-85256 85254
+85257-178362 93104
